@@ -1,6 +1,12 @@
 # Mr. Ed - The AI Powered Content Editor
 
-Mr. Ed is a Vue 3 application built with TypeScript and Vite. It leverages AI to assist users in creating and managing content, such as quizzes and documents.
+Mr. Ed is an experimental Vue 3 application built with TypeScript and Vite. It leverages AI to assist users in creating and managing content, such as quizzes and documents.
+
+https://bhbdev.com/projects/mr-ed/
+
+
+**(!)Disclaimer: This project has only had about 48hours of work put in. It served as a prototype and example for inspiration on other internal projects at the time.*
+
 
 ## Features
 
