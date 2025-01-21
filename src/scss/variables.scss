@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Quicksand&family=Asap:wght@400;600;800&family=Bungee&family=Basic&family=Roboto:wght@400;700&family=Permanent+Marker&display=swap');
+
+$logo-font: 'Asap','Basic','Roboto',sans-serif;
+$logo-accent: 'Permanent Marker',sans-serif;
+$strike-font: 'Sriracha','Permanent Marker', serif;
+$accent-font: 'Bungee',sans-serif;
+$title-font: 'Roboto',sans-serif;
+$font-family-base: 'Quicksand','Roboto','Basic',sans-serif;
+
+$enable-button-pointers: true;
+$enable-gradients: true;
+$enable-shadows: true;
+
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+$border-radius: .4rem;
+$input-placeholder-color: #c8c8c8;
+
+//$primary: #42b997; /*#42b983;*/
+$primary:darkblue;
+$body-color: #304455;
+$body-bg: #fff;
+$success: #098754;
+$info: #73abfe;
+$gray-100: #f6f6f6;
+$text-muted: #4e6e8e;
+$clr-blue: darkblue;
+$gold: gold;
+//$gray-900: #273849;
+
+$dark: #0c1018;
+$light: #F5F5F5;
+
+
+
+
+$custom-colors: (
+	"xprimary":    #0c67d7,
+	"info":       #0c67d7,
+	"accent4":    #9d9c9c,
+  "accent5":    gold,
+  "uibg":       #efeeff,
+  "uigray":     #e8e8e8,
+	"accent":			#f33951,
+    "nav-dark":   #0a0124,
+);
+
+
+$theme-colors: (
+    "light":      #ffffff,
+    "dark":       #0a0124,
+    "primary":    #0c67d7,
+    "secondary":  #3ba3f9,
+    "info":       #149fe3,
+    "accent1":    #e2e8f0,
+    "accent2":    #d6eff7,
+    "accent3":    #52dedb,
+    "success":    #03b165,
+    "warning":    #e6ce02,
+    "danger":     #f81701,
+);
+
+$modal-md: 375px;
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
